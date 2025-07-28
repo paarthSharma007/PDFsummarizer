@@ -20,7 +20,7 @@ PDF Summarizer AI is a full-stack AI-powered application that allows users to up
 
 - **Frontend:** React + TypeScript + Tailwind css + clerk authentication services
 - **Backend:** Node.js with Express  
-- **AI & Embedding:** OpenAI (`text-embedding-3-small`)  
+- **AI & Embedding:** OpenAI (`text-embedding-3-small`) , (gpt-3.5-turbo) 
 - **Chunking:** Langchain  
 - **Vector DB:** Qdrant  
 - **Containerization:** Docker & Docker Compose
