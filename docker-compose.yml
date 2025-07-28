@@ -1,0 +1,11 @@
+# compose docker file to run valkey and Qdrant modules 
+services:
+  valkey:
+    image: valkey/valkey
+    ports:
+      - 6379:6379
+
+  qdrant:
+    image: qdrant/qdrant
+    ports:
+      - 6333:6333
